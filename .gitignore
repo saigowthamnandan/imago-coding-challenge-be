@@ -1,0 +1,44 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode settings folder (if using VSCode)
+.vscode/
+
+# PyCharm settings folder (if using PyCharm)
+.idea/
+
+# Environment variables file (keep this secure)
+.env
+.env.local
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# Pytest cache
+.pytest_cache/
+
+# Python wheel files
+*.whl
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# FastAPI auto-generated files (if any)
+*.log
+*.sqlite
