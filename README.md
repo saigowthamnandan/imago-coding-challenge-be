@@ -16,22 +16,21 @@ The backend is built using **FastAPI** to handle the following tasks:
 - Provide filtering, pagination, and sorting functionality.
 - Handle both regular search and infinite scroll searches.
 
+### LIVE HOISTED URL
+
 ### Prerequisites
 
 1. **Python 3.8+**: Make sure you have Python installed on your machine.
 2. **FastAPI**: The web framework used to build the backend API.
 3. **ElasticSearch Client 7 or 8**: `elasticsearch` Python package to interact with Elasticsearch.
 
-### LIVE HOISTED URL
-
-
 ### Installation
 
 1. Clone the repository:
 
 ```bash
-   git clone <repo-url>
-   cd <repo-folder>
+   git clone https://github.com/saigowthamnandan/imago-coding-challenge-be.git
+   cd imago-coding-challenge-be
 ```
 
 2. Create a virtual environment:
